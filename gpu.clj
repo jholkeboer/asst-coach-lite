@@ -26,6 +26,9 @@
             [clojure.java.io :as io]
             [clojure.data.csv :as csv]))
 
+; Based on this example from the Bayadera docs:
+; https://github.com/uncomplicate/bayadera/blob/master/test/clojure/uncomplicate/bayadera/examples/dbda/ch18/multiple_linear_regression_test.clj
+
 (def all-data (atom {}))
 (def state (atom nil))
 
